@@ -1,0 +1,17 @@
+# Hide frontend markup & styling
+*.html linguist-vendored=true
+*.css linguist-vendored=true
+
+# Force detect backend & programming languages
+*.js linguist-detectable=true       # JavaScript
+*.jsx linguist-detectable=true      # React components
+*.ts linguist-detectable=true       # TypeScript if used
+*.py linguist-detectable=true       # Python
+*.java linguist-detectable=true     # Java
+*.sql linguist-detectable=true      # SQL files
+*.json linguist-detectable=true     # JSON (backend configs)
+
+# Optional: hide non-code/documentation
+*.md linguist-vendored=true
+*.lock linguist-vendored=true
+*.env linguist-vendored=true
